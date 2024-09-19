@@ -6,6 +6,13 @@
 $ docker compose up
 ```
 
+- ldap://localhostでldapにアクセスできる
+- https://localhost:6443でPHP LDAP Adminにアクセスできる
+  - `http`ではないことに注意
+  - ログイン情報
+    - DN: cn=admin,dc=example,dc=org
+    - Password: AhFKQeynF6Hr
+
 ## Check Connection
 
 - Docker Container内に入って動作確認
