@@ -76,4 +76,21 @@ $ ldapsearch -x -H ldap://example.org \
 
 - [LDAP Userを作成する](./ldif_sample/README.md)
 - [LDAP クライアントの設定](./docs/ldap_client_setup.md)
+
+## LDAPサーバーの構成
+
+```mermaid
+graph TD
+    A[LDAP Clients] --> B[LDAP Server]
+    B --> C[Directory Information Tree DIT]
+
+    C --> D[dc=example, dc=com]
+    D --> E[ou=People]
+    D --> F[ou=Groups]
+    
+    E --> G[cn=John Doe]
+    E --> H[cn=Jane Smith]
+    
+    F --> I[cn=AdminGroup]
+    F --> J[cn=UserGroup]
 ```
