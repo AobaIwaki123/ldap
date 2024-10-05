@@ -1,0 +1,12 @@
+dn: uid=john.doe,ou=users,dc=inu,dc=tail869d5,dc=ts,dc=net
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: top
+cn: John Doe
+sn: Doe
+uid: john.doe
+userPassword: password
+loginShell: /bin/bash
+uidNumber: 1001
+gidNumber: 1001
+homeDirectory: /home/john.doe

@@ -1,0 +1,3 @@
+dn: ou=users,dc=inu,dc=tail869d5,dc=ts,dc=net
+objectClass: organizationalUnit
+ou: users

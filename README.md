@@ -1,6 +1,6 @@
 # LDAPサーバー
 
-## 準備
+## 事前準備
 
 ```sh
 $ mkdir ldap_data
@@ -71,3 +71,7 @@ $ ldapsearch -x -H ldap://example.org \
 # numResponses: 3
 # numEntries: 2
 ```
+
+## LDAPサーバーを運用する
+
+- [LDAP Userを作成する](./ldif_sample/README.md)
