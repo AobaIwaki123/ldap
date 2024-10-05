@@ -75,3 +75,5 @@ $ ldapsearch -x -H ldap://example.org \
 ## LDAPサーバーを運用する
 
 - [LDAP Userを作成する](./ldif_sample/README.md)
+- [LDAP クライアントの設定](./docs/ldap_client_setup.md)
+```
