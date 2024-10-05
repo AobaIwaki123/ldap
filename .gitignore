@@ -1,1 +1,4 @@
 *.env
+ldap_config/
+ldap_data/
+tmp/
