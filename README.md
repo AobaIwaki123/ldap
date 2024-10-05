@@ -34,7 +34,7 @@ $ docker compose up
 - Docker Container内に入って動作確認
 
 ```sh
-$ docker exec ldap     ldapsearch -x -H ldap://localhost     -b dc=inu,dc=tail869d5,dc=ts,dc=net     -D "cn=admin,dc=inu,dc=tail869d5,dc=ts,dc=net"     -w WcEshXgcdpUY
+$ docker exec ldap ldapsearch -x -H ldap://localhost -b dc=inu,dc=tail869d5,dc=ts,dc=net -D "cn=admin,dc=inu,dc=tail869d5,dc=ts,dc=net" -w AhFKQeynF6Hr
 ```
 
 - localhostから疎通確認
